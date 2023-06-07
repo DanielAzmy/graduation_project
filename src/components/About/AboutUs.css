@@ -1,0 +1,39 @@
+.about-container{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+.about-container h1{
+    padding-bottom: 1rem;
+}
+.about-container p{
+    padding-bottom: 2rem;
+    font-size: 17px;
+    color: rgb(101, 92, 92);
+}
+@media screen and (max-width:850px) {
+    .about-container{
+        margin: 4rem 6rem;
+    }
+}
+.img{
+    margin: 4rem 2rem;
+}
+header button{
+    width: 230px;
+    height: 60px;
+    border-radius: 28px;
+    background-color: #198754;
+    text-align: center;
+    color: white;
+    margin:20px 10px 20px 80px;}
+header button:hover{
+    transition: .2s ease-in-out;
+}
+header button:first-of-type:hover{
+    background-color: white;
+    color:black;
+}
+header button:last-of-type:hover{
+    background-color: white;
+    color:black;
+}

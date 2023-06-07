@@ -1,0 +1,21 @@
+.container {
+  min-height: 100px;
+}
+
+.form-control {
+  width: 300px;
+  margin: 0 auto; /* Center align the input fields */
+}
+
+.btn-register {
+  background-color: green;
+  color: white;
+}
+
+.error-message {
+  color: red;
+}
+
+.registration-label {
+  margin-top: 1rem;
+}
